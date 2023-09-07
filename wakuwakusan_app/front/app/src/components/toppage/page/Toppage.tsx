@@ -23,7 +23,9 @@ export const Toppage = () => {
             <ToppageNavigation>Login</ToppageNavigation>
           </Link>
           <br />
-          <ToppageNavigation>Signup</ToppageNavigation>
+          <Link href="/signup">
+            <ToppageNavigation>Signup</ToppageNavigation>
+          </Link>
         </div>
       </div>
     </>
