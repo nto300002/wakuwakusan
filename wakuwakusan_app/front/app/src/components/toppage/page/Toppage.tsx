@@ -1,7 +1,7 @@
-import { BackgroundImage } from '@/components/layouts/BackgroundImage';
-import { ToppageLogo } from '@/components/layouts/ToppageLogo';
+import { BackgroundImage } from '@/components/toppage/BackgroundImage';
+import { ToppageLogo } from '@/components/toppage/ToppageLogo';
 import { ToppageNavigation } from '@/components/toppage/ToppageNavigation';
-import Image from 'next/image';
+import Link from 'next/link';
 
 export const Toppage = () => {
   return (
@@ -19,7 +19,9 @@ export const Toppage = () => {
         </div>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center from-white via-white lg:static lg:h-auto lg:w-auto lg:bg-none"></div>
         <div className="flex flex-col mt-32">
-          <ToppageNavigation>Login</ToppageNavigation>
+          <Link href="/login">
+            <ToppageNavigation>Login</ToppageNavigation>
+          </Link>
           <br />
           <ToppageNavigation>Signup</ToppageNavigation>
         </div>
