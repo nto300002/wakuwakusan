@@ -28,6 +28,9 @@ export const Toppage = () => {
           </Link>
         </div>
       </div>
+      <div className='text-4xl text-center z-20'>
+      <p className='animate-bounce'>↓</p>
+      </div>
     </>
   );
 }
