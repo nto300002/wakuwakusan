@@ -62,6 +62,7 @@ const Header = () => {
                   <Link href="/signup">
                     <p className={styleHover}>サインアップ</p>
                   </Link>
+                  <span>--------------</span>
                   <Link href="/selections">
                     <p className={styleHover}>目標一覧</p>
                   </Link>
